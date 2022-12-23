@@ -1,1 +1,24 @@
+on:
+  push:
+    branches:
+           -maa
+
+
+
+
+
+
+jobs:
+  build:
+     run-on:ubunto-latest 
+
+
+
+steps:
+-name: "the location"
+run: pwd
+
+-name:"printe"
+run: echo yousef 
+      
 
